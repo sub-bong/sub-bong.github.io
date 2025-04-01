@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sub-bong-log</title>
+  
+  <subtitle>dev</subtitle>
+  <link href="http://sub-bong.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://sub-bong.github.io/"/>
+  <updated>2025-03-30T14:30:10.939Z</updated>
+  <id>http://sub-bong.github.io/</id>
+  
+  <author>
+    <name>sub-bong</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test post</title>
+    <link href="http://sub-bong.github.io/post/test-post/"/>
+    <id>http://sub-bong.github.io/post/test-post/</id>
+    <published>2025-03-30T12:23:14.000Z</published>
+    <updated>2025-03-30T14:30:10.939Z</updated>
+    
+    <content type="html"><![CDATA[<p>테스트 입니다.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;테스트 입니다.&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://sub-bong.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>마크다운 문법</title>
+    <link href="http://sub-bong.github.io/post/md%20%EB%AC%B8%EB%B2%95/"/>
+    <id>http://sub-bong.github.io/post/md%20%EB%AC%B8%EB%B2%95/</id>
+    <published>2025-03-29T16:23:14.000Z</published>
+    <updated>2025-03-30T15:05:20.681Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="This-is-an-H1"><a href="#This-is-an-H1" class="headerlink" title="This is an H1"></a>This is an H1</h1><h2 id="This-is-an-H2"><a href="#This-is-an-H2" class="headerlink" title="This is an H2"></a>This is an H2</h2><h3 id="This-is-an-H3"><a href="#This-is-an-H3" class="headerlink" title="This is an H3"></a>This is an H3</h3><h4 id="This-is-an-H4"><a href="#This-is-an-H4" class="headerlink" title="This is an H4"></a>This is an H4</h4><h5 id="This-is-an-H5"><a href="#This-is-an-H5" class="headerlink" title="This is an H5"></a>This is an H5</h5><h6 id="This-is-an-H6"><a href="#This-is-an-H6" class="headerlink" title="This is an H6"></a>This is an H6</h6><hr><p>줄바꿈 입니다 <br><br>잘 되네요<br>그러나 이건 안되네요</p><hr><p><em>기울여 쓰기</em> <br><br><strong>두껍게 쓰기</strong> <br><br><del>취소선</del> <br><br><em>이탤릭체와 <strong>볼드체</strong> 같이 쓰기</em></p><hr><p>Blockquotes 인용:</p><blockquote><p>인용 하나</p><blockquote><p>인용 둘</p><blockquote><p>인용 셋</p></blockquote></blockquote></blockquote><blockquote><p>인용안에 제목이나 리스트, 텍스트박스 등을 넣을 수 있음</p><h1 id="제목"><a href="#제목" class="headerlink" title="제목"></a>제목</h1><ul><li>리스트 <code>텍스트박스</code></li></ul></blockquote><hr><ul><li><p>리스트</p><ul><li>리스트<ul><li>리스트<ul><li>리스트</li></ul></li></ul></li></ul></li><li><p>리스트1</p></li><li><p>리스트2</p></li><li><p>리스트3</p></li></ul><hr><ol><li><p>순서 목록</p><ol><li>순서목록</li><li>순서목록</li></ol></li><li><p>순서 목록</p></li><li><p>순서 목록</p></li><li><p>순서 목록</p><ol><li>순서목록</li><li>순서목록</li><li>순서목록<ul><li><strong>리스트와 혼합도 가능</strong></li><li>리스트2</li></ul></li></ol></li></ol><hr><ul><li>특수문자 출력 안됨</li></ul><ul><li>특수문자 출력 안됨</li></ul><p>* 특수문자 출력</p><p>- 특수문자 출력</p><hr><p><img src="/%EC%9D%B4%EB%AF%B8%EC%A7%80%EA%B2%BD%EB%A1%9C.jpg" alt="텍스트"><br><img src="/%EC%9D%B4%EB%AF%B8%EC%A7%80%ED%8C%8C%EC%9D%BCURL" alt="텍스트"><br><img src="/%EC%9D%B4%EB%AF%B8%EC%A7%80%ED%8C%8C%EC%9D%BCURL" alt="텍스트" title="이미지이름"></p><h3 id="이미지를-링크로-사용하기"><a href="#이미지를-링크로-사용하기" class="headerlink" title="이미지를 링크로 사용하기"></a>이미지를 링크로 사용하기</h3><h2 id=""><a href="#" class="headerlink" title=""></a><a href="linkURL"><img src="/%EC%9D%B4%EB%AF%B8%EC%A7%80%ED%8C%8C%EC%9D%BCURL" alt="텍스트"></a></h2><hr><h3 id="외부-링크"><a href="#외부-링크" class="headerlink" title="외부 링크"></a>외부 링크</h3><p><a href="http://www.google.com/" title="구글">Google</a></p><p><a href="http://www.naver.com/" title="네이버">Naver</a></p><hr><h3 id="내부-해시-링크"><a href="#내부-해시-링크" class="headerlink" title="내부(해시)링크"></a>내부(해시)링크</h3><p>[보여지는 내용](#이동할 헤드(제목))</p><p>괄호 안의 링크를 쓸 때는 띄어쓰기는 -로 연결, 영어는 모두 소문자로 작성</p><p><a href="#%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EB%A7%81%ED%81%AC%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0">이미지를 링크로 사용하기</a></p><hr><h3 id="코드-블록"><a href="#코드-블록" class="headerlink" title="코드 블록"></a>코드 블록</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">main</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello mark down&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><hr><h3 id="체크리스트"><a href="#체크리스트" class="headerlink" title="체크리스트"></a>체크리스트</h3><ul><li><p><input checked="" disabled="" type="checkbox"> 체크된 리스트</p></li><li><p>[] 체크된 리스트</p></li></ul><hr><h3 id="테이블"><a href="#테이블" class="headerlink" title="테이블"></a>테이블</h3><blockquote><p>헤더와 셀을 구분할 때 3개 이상의 -(hyphen&#x2F;dash) 기호가 필요합니다.</p></blockquote><blockquote><p>헤더 셀을 구분하면서 :(Colons) 기호로 셀(열&#x2F;칸) 안에 내용을 정렬할 수 있습니다.</p></blockquote><blockquote><p>가장 좌측과 가장 우측에 있는 |(vertical bar) 기호는 생략 가능합니다.</p></blockquote><table><thead><tr><th align="left">헤더1</th><th align="center">헤더2</th><th align="right">헤더3</th></tr></thead><tbody><tr><td align="left">왼쪽정렬</td><td align="center">중간정렬</td><td align="right">오른쪽정렬</td></tr><tr><td align="left">셀1</td><td align="center">셀2</td><td align="right">셀3</td></tr><tr><td align="left">셀4</td><td align="center">셀5</td><td align="right">셀6</td></tr><tr><td align="left">셀7</td><td align="center">셀8</td><td align="right">셀9</td></tr><tr><td align="left">1</td><td align="center">2</td><td align="right">3</td></tr></tbody></table><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;This-is-an-H1&quot;&gt;&lt;a href=&quot;#This-is-an-H1&quot; class=&quot;headerlink&quot; title=&quot;This is an H1&quot;&gt;&lt;/a&gt;This is an H1&lt;/h1&gt;&lt;h2 id=&quot;This-is-an-H2&quot;&gt;&lt;a hre</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://sub-bong.github.io/tags/test/"/>
+    
+  </entry>
+  
+</feed>
